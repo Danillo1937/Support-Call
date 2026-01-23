@@ -18,8 +18,6 @@ namespace Support_Call1.Infra.Data.Configuration
                 .IsRequired()
                 .HasMaxLength(255);
 
-
-
             builder.ToTable("Technicals");
         }
     }

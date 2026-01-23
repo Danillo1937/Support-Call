@@ -20,10 +20,8 @@ namespace Support_Call1.Infra.Data.Configuration
                 .HasMaxLength(255);
 
             builder.Property(u => u.Password)
-                .IsRequired() 
+                .IsRequired()
                 .HasMaxLength(255);
-
-            builder.Property(u => u.CodFunc).IsRequired();
 
             builder.ToTable("Users");
 

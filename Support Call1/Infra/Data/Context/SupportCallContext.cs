@@ -12,7 +12,7 @@ namespace Support_Call1.Infra.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new UsersConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new CallsConfiguration());
             modelBuilder.ApplyConfiguration(new TechnicalConfiguration());
             base.OnModelCreating(modelBuilder);
