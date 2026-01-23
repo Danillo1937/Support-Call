@@ -1,0 +1,15 @@
+ # Visual Studio
+.vs/
+
+# Build
+bin/
+obj/
+
+# Node / Frontend
+node_modules/
+
+# Logs
+*.log
+
+# Ambiente
+.env
