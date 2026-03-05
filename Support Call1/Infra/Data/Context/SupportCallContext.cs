@@ -20,7 +20,7 @@ namespace Support_Call1.Infra.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            const string conection = "Server=localhost;Database=SupportCallDB;port=3306;uid=root;Password=;";
+            const string conection = "server=localhost;port=3306;database=SupportCallDB;user=root;password=;";
 
             optionsBuilder.UseMySql(conection, ServerVersion.AutoDetect(conection));
             base.OnConfiguring(optionsBuilder);
